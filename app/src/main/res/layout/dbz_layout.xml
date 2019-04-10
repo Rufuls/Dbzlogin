@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dbz_Activity">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/goku"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goku/Kakaroto"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sua maior paixão, sem dúvida, é lutar. Ao longo da série, Goku demonstra muita satisfação por lutar contra inimigos mais poderosos do que ele. É possível concluir que ele é, na maior parte das vezes, quem alcança o poder mais elevado na história. Contudo, e apesar da sua significativa dedicação em árduos treinos, existe sempre alguém mais forte que ele, o que o leva a treinar ainda mais."
+        android:textAlignment="center"/>
+
+</LinearLayout>
